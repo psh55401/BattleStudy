@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="Category">
+        <item>군공무원(국어)</item>
+        <item>전산공무원</item>
+        <item>군수공무원</item>
+        <item>행정공무원</item>
+        <item>전산공무원</item>
+        <item>NCS</item>
+        <item>대학수학능력시험</item>
+        <item>1,2급 한국사능력시험</item>
+        <item>3,4급 한국사능력시험</item>
+        <item>정보처리기사</item>
+        <item>정보보안기사</item>
+        <item>MOS</item>
+        <item>TOEIC</item>
+        <item>TOEFL</item>
+        <item>TOEIC-Speaking</item>
+    </string-array>
+    <string-array name="Many">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+</resources>

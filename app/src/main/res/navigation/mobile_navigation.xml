@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication5.ui.home.HomeFragment"
+        android:label="메인"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_shop"
+        android:name="com.example.myapplication5.ui.shop.shopfragment"
+        android:label="상점"
+        tools:layout="@layout/fragment_shopfragment" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.myapplication5.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.myapplication5.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+
+    <fragment android:id="@+id/navigation_home"
+        tools:layout="@layout/fragment_home"
+        android:label="메인"
+        android:name="com.example.myapplication5.ui.home.HomeFragment"/>
+
+    <fragment android:id="@+id/navigation_dashboard"
+        tools:layout="@layout/fragment_dashboard"
+        android:label="매칭"
+        android:name="com.example.myapplication5.ui.dashboard.DashboardFragment"/>
+
+    <fragment android:id="@+id/navigation_notifications"
+        tools:layout="@layout/fragment_notification"
+        android:label="그래프"
+        android:name="com.example.myapplication5.ui.Nontifications.NotificationsFragment"/>
+
+</navigation>
